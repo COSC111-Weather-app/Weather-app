@@ -82,7 +82,11 @@ Make sure you have Python installed on your system (Python 3.x is recommended). 
 
 The application uses the OpenWeatherMap API. If you're running from source code, you may need to:
 - Sign up for a free API key at [OpenWeatherMap](https://openweathermap.org/api)
-- Replace the API key in the source code if needed
+- Replace the API key in the source code 
+   ``` # API key
+        self.api_key = "Replace your api_key"
+   ```
+
 
 ## Troubleshooting
 
